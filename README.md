@@ -29,25 +29,27 @@ O projeto simula um chatbot de atendimento de e-commerce, responsável por respo
 
 ## 🧪 Tipos de Testes Implementados
 
-### ✅ Testes de Intenção
+### ✅ Testes de Intenção (NLP)
+Valida se o chatbot identifica corretamente a intenção do usuário, mesmo com variações de linguagem.
 
-Verifica se o chatbot identifica corretamente a intenção do usuário.
+### 🧠 Testes de Variação de Linguagem
+Garante que diferentes formas de escrita levam ao mesmo entendimento (ex: "trocar", "devolver", "reembolso").
 
-### 🔐 Testes de Segurança
-
-Simula ataques de prompt injection e valida bloqueios.
-
-### 🧠 Testes de Variação (NLP)
-
-Garante que diferentes formas de escrever levam ao mesmo entendimento.
+### 🔐 Testes de Segurança (Prompt Injection)
+Simula tentativas de manipulação e valida se o chatbot bloqueia respostas sensíveis.
 
 ### 📊 Testes de Conteúdo
+Verifica se a resposta contém informações corretas (ex: política de devolução e prazos).
 
-Valida se a resposta contém informações corretas (ex: política de devolução).
+### ⚠️ Testes de Fallback
+Garante que perguntas fora do escopo são tratadas corretamente.
 
-### ⚠️ Testes de Erro
+### 🚫 Testes de Anti-Alucinação
+Evita que o chatbot invente informações (ex: cupons ou descontos inexistentes).
 
-Garante que entradas inválidas são tratadas corretamente.
+### ❌ Testes de Erro
+Valida comportamento quando inputs inválidos são enviados.
+
 
 ---
 
