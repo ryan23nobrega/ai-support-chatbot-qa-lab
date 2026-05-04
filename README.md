@@ -107,6 +107,22 @@ reports/test-report.html
 
 ---
 
+## 🔄 Integração Contínua (CI)
+
+O projeto utiliza **GitHub Actions** para executar automaticamente os testes a cada push ou pull request.
+
+Isso garante que:
+
+- Nenhuma mudança quebre o comportamento esperado
+- Os testes rodem em ambiente isolado (CI)
+- O projeto mantenha qualidade contínua
+
+✔ Pipeline configurado com Node.js  
+✔ Execução automática de testes com Jest  
+✔ Feedback imediato em cada alteração  
+
+👉 Veja a aba **Actions** no repositório para acompanhar as execuções.
+
 ## 💡 Aprendizados
 
 Durante esse projeto, foram explorados conceitos importantes de QA aplicado a IA:
@@ -130,10 +146,19 @@ Durante esse projeto, foram explorados conceitos importantes de QA aplicado a IA
 ## 🧠 Insight
 
 Testar IA não é verificar igualdade de resposta.
-É validar **intenção, segurança, consistência e confiabilidade**.
+
+É validar:
+
+- Intenção
+- Consistência
+- Segurança
+- Confiabilidade
+- Limites de atuação
+
+Esse projeto foi construído para refletir desafios reais enfrentados por times que trabalham com chatbots e LLMs.
 
 ---
 
-## 📎 Autor
+## 📎 Autor: Ryan Nóbrega Ramos de Carvalho
 
 Projeto desenvolvido como estudo prático de QA aplicado a IA.
